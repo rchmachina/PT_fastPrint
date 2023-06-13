@@ -135,7 +135,7 @@
                                     </div>
                                 </div>
 
-                                <!-- modal untuk menghapus data  -->
+                                <!-- modal untuk mengedit data  -->
                                 
                                 <div class="modal fade" id="updateModal{{ $barangAvaible->id_produk }}" tabindex="-1" aria-labelledby="updateModal{{ $barangAvaible->id_produk }}" aria-hidden="true">
                                     <div class="modal-dialog">
@@ -190,13 +190,6 @@
         </div>
     </div>
 
-    
-
-    <script>
-        setTimeout(function() {
-            $(".alert").alert('close');
-        }, 5000); // Change the timeout value (in milliseconds) according to your needs
-    </script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
 </body>
