@@ -4,5 +4,6 @@
 - setting the environtment
 - type on terminal "php artisan key:generate"
 - type on terminal "php artisan migrate"
+- php artisan serve
 - go to browser then go to "http://127.0.0.1:8000/fetchingApiTeknikalTest"
-- php artisan serve, done
+- all done
